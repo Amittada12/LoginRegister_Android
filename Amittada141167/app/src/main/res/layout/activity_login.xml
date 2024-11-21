@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/itbg1411">
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_strokebg"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/Forgerpw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Dont have an account ?"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <TextView
+        android:id="@+id/forgerpw2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textColor="@color/material_dynamic_primary80"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <TextView
+        android:id="@+id/forgerpw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:background="@drawable/btn_strokebg"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="346dp"
+        android:layout_height="52dp"
+        android:background="@drawable/btn_bg"
+        android:text="Login"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:background="@drawable/btn_bg"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="70dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="Facebook"
+        android:textColor="@color/material_dynamic_primary20"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:background="@drawable/btn_bg"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="70dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="Google"
+        android:textColor="@color/material_dynamic_primary20"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
